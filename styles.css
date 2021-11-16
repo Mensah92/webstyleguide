@@ -1,3 +1,27 @@
+@font-face {
+    font-family:'justopensans';
+    src: url('assets/fonts/OpenSans-Regular.ttf'),
+         url('assets/fonts/OpenSans-Italic.ttf'),
+         url('assets/fonts/OpenSans-Bold.ttf');
+}
+
+@font-face {
+    font-family:'justraleway';
+    src: url('assets/fonts/Raleway-Regular.ttf'),
+         url('assets/fonts/Raleway-Italic.ttf'),
+         url('assets/fonts/Raleway-Bold.ttf');
+}
+
+@font-face {
+    font-family:'justmonts';
+    src: url('assets/fonts/Montserrat-Regular.ttf'),
+         url('assets/fonts/Montserrat-Italic.ttf'),
+         url('assets/fonts/Montserrat-BoldItalic.ttf');
+}
+
+
+
+
 * {
     margin: 0; 
     padding: 0; 
@@ -50,14 +74,18 @@ h2 {
 
 }
 
+h3 {
+    margin: 0 30px; 
+}
+
 .color p {
     margin: 0 auto;
     
 }
 
-.colors {
+.section {
     margin: 10px auto; 
-    width: 70%;
+    width: 800px;
     height: 500px;
     background-color:#FEFBF3;
     border: 2px solid gray; 
@@ -65,13 +93,72 @@ h2 {
     
 }
 .color {
-    width: 100px; 
+    width: 200px; 
     height: 100px ;
     background-color: #79B4B7;
     display: inline-block; 
     text-align: center;  
-    margin: 10px 30px; 
-    box-shadow: 0 0 10px rgb(216, 214, 218);
+    margin: 20px 30px; 
+    text-transform: uppercase;
+   
 
 }
+/* 
+THE COLORS  */
 
+#color-one {
+    background-color:#911F27 ;
+}
+
+#color-two {
+    background-color:#630A10 ;
+}
+
+#color-three {
+    background-color: #FCF0C8;
+}
+
+#color-four {
+    background-color:#FACE7F ;
+}
+
+#color-five {
+    background-color:#1E3163 ;
+}
+
+#color-six {
+    background-color: #2D46B9;
+}
+
+/* FONTS  */
+
+p {
+    padding-bottom: 10px;
+}
+
+.font {
+    display: inline-block;
+    margin: 5px 10px; 
+    border: 1px solid lightblue;
+    border-radius: 2%;
+    padding: 3px; 
+    width: 50%;
+    
+}
+.opensans {
+    font-family: 'justopensans';
+}
+.raleway {
+    font-family: 'justraleway';
+}
+
+.monts {
+    font-family: 'justmonts';
+}
+#italic {
+    font-style: italic;
+}
+
+#bold {
+    font-weight: bold;
+}
